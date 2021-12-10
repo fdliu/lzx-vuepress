@@ -1,6 +1,8 @@
+const navConfig = require("../../navConfig/nav")
+const sidebarConfig = require("../../sidebarConfig/sidebar")
 module.exports = {
   title: 'LZX\'s Blog by VuePress',
-  description: 'lzx a project',
+  description: 'lzx a project,每天进步一点点。',
   serviceWorker: true,
   base: '/lzx-vuepress/',
 	head: [
@@ -15,33 +17,8 @@ module.exports = {
   // },
   themeConfig: {
     search: true,
-      nav: [
-          { text: '主页', link: '/' },
-          { text: '博文',
-            items: [
-              { text: 'bar', link: '/bar/' },
-              { text: 'foo', link: '/foo/' },
-            ] 
-          },
-          { text: '关于', link: '/about/' },
-          { text: 'Github', link: 'https://www.github.com/codeteenager' },
-      ],
-      sidebar: [{
-          title: 'bar',
-          collapsable: true,
-          children: [
-              ['/bar/three', 'three'],
-              ['/bar/four', 'four'],
-          ]
-      },
-      {
-          title: 'foo',
-          collapsable: true,
-          children: [
-              ['/foo/one', 'one'],
-              ['/foo/two', 'two'],
-          ]
-      }],
+      nav: navConfig,
+      sidebar: sidebarConfig,
       sidebarDepth: 1,
       lastUpdated: 'Last Updated', 
   },

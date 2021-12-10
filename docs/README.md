@@ -1,13 +1,20 @@
-# Hello VuePress
 
-> A VuePress project
+::: tip
+默认容器
+:::
+👨‍✈️
+::: tip
+[技术篇](/skill/)
+:::
 
-## Build Setup
+::: tip
+ [生活篇](/exist/)
+:::
 
-``` bash
-# install dependencies
-npm install
+::: tip
+[读书清单](/readList/)
+:::
 
-# serve with hot reload at localhost:8080
-npm run dev
-```
+::: tip
+[网站](/website/)
+:::

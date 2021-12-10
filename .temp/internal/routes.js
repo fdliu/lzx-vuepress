@@ -9,6 +9,22 @@ import GlobalLayout from "D:\\xingkong\\lzx-vuepress\\node_modules\\@vuepress\\c
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-3f4f29cc",
+    path: "/exist/a.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3f4f29cc").then(next)
+    },
+  },
+  {
+    name: "v-12d61874",
+    path: "/readList/a.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-12d61874").then(next)
+    },
+  },
+  {
     name: "v-7b03c9bc",
     path: "/",
     component: GlobalLayout,
@@ -21,47 +37,19 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-62e832f2",
-    path: "/bar/",
+    name: "v-a7fc0a68",
+    path: "/website/a.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-62e832f2").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-a7fc0a68").then(next)
     },
   },
   {
-    path: "/bar/index.html",
-    redirect: "/bar/"
-  },
-  {
-    name: "v-2f1d48d8",
-    path: "/bar/four.html",
+    name: "v-45acae0c",
+    path: "/skill/a.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2f1d48d8").then(next)
-    },
-  },
-  {
-    name: "v-1fb5af2c",
-    path: "/bar/three.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1fb5af2c").then(next)
-    },
-  },
-  {
-    name: "v-fa9274e8",
-    path: "/foo/one.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-fa9274e8").then(next)
-    },
-  },
-  {
-    name: "v-e9468d68",
-    path: "/foo/two.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e9468d68").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-45acae0c").then(next)
     },
   },
   {

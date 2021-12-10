@@ -3,7 +3,7 @@
  */
 export const siteData = {
   "title": "LZX's Blog by VuePress",
-  "description": "lzx a project",
+  "description": "lzx a project,每天进步一点点。",
   "base": "/lzx-vuepress/",
   "headTags": [
     [
@@ -16,66 +16,40 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Hello VuePress",
+      "frontmatter": {},
+      "regularPath": "/exist/a.html",
+      "relativePath": "exist/a.md",
+      "key": "v-3f4f29cc",
+      "path": "/exist/a.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/readList/a.html",
+      "relativePath": "readList/a.md",
+      "key": "v-12d61874",
+      "path": "/readList/a.html"
+    },
+    {
       "frontmatter": {},
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-7b03c9bc",
       "path": "/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Build Setup",
-          "slug": "build-setup"
-        }
-      ]
+      "lastUpdated": "12/10/2021, 9:23:00 AM"
     },
     {
-      "title": "Hello VuePress",
       "frontmatter": {},
-      "regularPath": "/bar/",
-      "relativePath": "bar/README.md",
-      "key": "v-62e832f2",
-      "path": "/bar/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Build Setup",
-          "slug": "build-setup"
-        }
-      ]
+      "regularPath": "/website/a.html",
+      "relativePath": "website/a.md",
+      "key": "v-a7fc0a68",
+      "path": "/website/a.html"
     },
     {
-      "title": "four",
       "frontmatter": {},
-      "regularPath": "/bar/four.html",
-      "relativePath": "bar/four.md",
-      "key": "v-2f1d48d8",
-      "path": "/bar/four.html"
-    },
-    {
-      "title": "three",
-      "frontmatter": {},
-      "regularPath": "/bar/three.html",
-      "relativePath": "bar/three.md",
-      "key": "v-1fb5af2c",
-      "path": "/bar/three.html"
-    },
-    {
-      "title": "one",
-      "frontmatter": {},
-      "regularPath": "/foo/one.html",
-      "relativePath": "foo/one.md",
-      "key": "v-fa9274e8",
-      "path": "/foo/one.html"
-    },
-    {
-      "title": "two",
-      "frontmatter": {},
-      "regularPath": "/foo/two.html",
-      "relativePath": "foo/two.md",
-      "key": "v-e9468d68",
-      "path": "/foo/two.html"
+      "regularPath": "/skill/a.html",
+      "relativePath": "skill/a.md",
+      "key": "v-45acae0c",
+      "path": "/skill/a.html"
     }
   ],
   "themeConfig": {
@@ -109,30 +83,42 @@ export const siteData = {
     ],
     "sidebar": [
       {
-        "title": "bar",
+        "title": "技术篇",
         "collapsable": true,
         "children": [
           [
-            "/bar/three",
-            "three"
-          ],
-          [
-            "/bar/four",
-            "four"
+            "/skill/a",
+            "a"
           ]
         ]
       },
       {
-        "title": "foo",
+        "title": "生活篇",
         "collapsable": true,
         "children": [
           [
-            "/foo/one",
-            "one"
-          ],
+            "/exist/a",
+            "a"
+          ]
+        ]
+      },
+      {
+        "title": "读书清单",
+        "collapsable": true,
+        "children": [
           [
-            "/foo/two",
-            "two"
+            "/readList/a",
+            "a"
+          ]
+        ]
+      },
+      {
+        "title": "网站",
+        "collapsable": true,
+        "children": [
+          [
+            "/skill/a",
+            "a"
           ]
         ]
       }
