@@ -1,0 +1,28 @@
+{
+  "name": "vuepress-starter",
+  "version": "1.0.0",
+  "description": "This is a vuepress project by lzx.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs --temp .temp",
+    "build": "vuepress build docs",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "bash deploy.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://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@github.com/fdliu/vue-project-xing.git"
+  },
+  "keywords": [
+    "vuepress"
+  ],
+  "author": "lzx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fdliu/vue-project-xing/issues"
+  },
+  "homepage": "https://github.com/fdliu/vue-project-xing#readme",
+  "devDependencies": {
+    "vuepress": "^1.8.2"
+  }
+}
