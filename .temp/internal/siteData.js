@@ -17,39 +17,71 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-7b03c9bc",
+      "path": "/",
+      "lastUpdated": "12/13/2021, 9:56:06 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/",
+      "relativePath": "exist/README.md",
+      "key": "v-290eff02",
+      "path": "/exist/"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/exist/a.html",
       "relativePath": "exist/a.md",
       "key": "v-3f4f29cc",
-      "path": "/exist/a.html"
+      "path": "/exist/a.html",
+      "lastUpdated": "12/13/2021, 9:56:06 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/readList/",
+      "relativePath": "readList/README.md",
+      "key": "v-734327f6",
+      "path": "/readList/"
     },
     {
       "frontmatter": {},
       "regularPath": "/readList/a.html",
       "relativePath": "readList/a.md",
       "key": "v-12d61874",
-      "path": "/readList/a.html"
+      "path": "/readList/a.html",
+      "lastUpdated": "12/13/2021, 9:56:06 AM"
     },
     {
       "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-7b03c9bc",
-      "path": "/",
-      "lastUpdated": "12/10/2021, 9:23:00 AM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/website/a.html",
-      "relativePath": "website/a.md",
-      "key": "v-a7fc0a68",
-      "path": "/website/a.html"
+      "regularPath": "/skill/",
+      "relativePath": "skill/README.md",
+      "key": "v-140de76a",
+      "path": "/skill/"
     },
     {
       "frontmatter": {},
       "regularPath": "/skill/a.html",
       "relativePath": "skill/a.md",
       "key": "v-45acae0c",
-      "path": "/skill/a.html"
+      "path": "/skill/a.html",
+      "lastUpdated": "12/13/2021, 9:56:06 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/website/",
+      "relativePath": "website/README.md",
+      "key": "v-6be08ef7",
+      "path": "/website/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/website/a.html",
+      "relativePath": "website/a.md",
+      "key": "v-a7fc0a68",
+      "path": "/website/a.html",
+      "lastUpdated": "12/13/2021, 9:56:06 AM"
     }
   ],
   "themeConfig": {
@@ -117,7 +149,7 @@ export const siteData = {
         "collapsable": true,
         "children": [
           [
-            "/skill/a",
+            "/website/a",
             "a"
           ]
         ]

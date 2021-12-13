@@ -1,22 +1,9 @@
 
-::: tip
-默认容器
-:::
 👨‍✈️
 ::: tip
-[技术篇](/skill/)
+[技术篇（15）](/skill/)<br/>
+[生活篇（10）](/exist/)<br/>
+[读书清单（10）](/readList/)<br/>
+[网站（1）](/website/)<br/>
 :::
-
-::: tip
- [生活篇](/exist/)
-:::
-
-::: tip
-[读书清单](/readList/)
-:::
-
-::: tip
-[网站](/website/)
-:::
-
-yarn deploy-gh # 或者：npm run deploy-gh
+yarn deploy-gh # 或者：npm run deploy-gh    
