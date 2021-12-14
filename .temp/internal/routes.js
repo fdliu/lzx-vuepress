@@ -21,16 +21,24 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-290eff02",
-    path: "/exist/",
+    name: "v-8554be5a",
+    path: "/about/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-290eff02").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-8554be5a").then(next)
     },
   },
   {
-    path: "/exist/index.html",
-    redirect: "/exist/"
+    path: "/about/index.html",
+    redirect: "/about/"
+  },
+  {
+    name: "v-4f78b168",
+    path: "/exist/homeEducation.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4f78b168").then(next)
+    },
   },
   {
     name: "v-f1e0201c",
@@ -41,19 +49,19 @@ export const routes = [
     },
   },
   {
-    name: "v-4a96a668",
-    path: "/exist/tecProgress.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4a96a668").then(next)
-    },
-  },
-  {
     name: "v-1641958c",
     path: "/exist/remoteWork.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-1641958c").then(next)
+    },
+  },
+  {
+    name: "v-4a96a668",
+    path: "/exist/tecProgress.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4a96a668").then(next)
     },
   },
   {
@@ -125,20 +133,24 @@ export const routes = [
     redirect: "/website/"
   },
   {
-    name: "v-4f78b168",
-    path: "/exist/homeEducation.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4f78b168").then(next)
-    },
-  },
-  {
     name: "v-a7fc0a68",
     path: "/website/a.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-a7fc0a68").then(next)
     },
+  },
+  {
+    name: "v-290eff02",
+    path: "/exist/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-290eff02").then(next)
+    },
+  },
+  {
+    path: "/exist/index.html",
+    redirect: "/exist/"
   },
   {
     path: '*',

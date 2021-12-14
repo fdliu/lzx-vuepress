@@ -3,10 +3,11 @@
  */
 export default {
   "v-7b03c9bc": () => import("D:\\xingkong\\lzx-vuepress\\docs\\README.md"),
-  "v-290eff02": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\README.md"),
+  "v-8554be5a": () => import("D:\\xingkong\\lzx-vuepress\\docs\\about\\README.md"),
+  "v-4f78b168": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\homeEducation.md"),
   "v-f1e0201c": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\poorBusy.md"),
-  "v-4a96a668": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\tecProgress.md"),
   "v-1641958c": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\remoteWork.md"),
+  "v-4a96a668": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\tecProgress.md"),
   "v-d36b5c88": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\timeAndMoney.md"),
   "v-01cc87a8": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\useLess.md"),
   "v-734327f6": () => import("D:\\xingkong\\lzx-vuepress\\docs\\readList\\README.md"),
@@ -14,6 +15,6 @@ export default {
   "v-140de76a": () => import("D:\\xingkong\\lzx-vuepress\\docs\\skill\\README.md"),
   "v-45acae0c": () => import("D:\\xingkong\\lzx-vuepress\\docs\\skill\\a.md"),
   "v-6be08ef7": () => import("D:\\xingkong\\lzx-vuepress\\docs\\website\\README.md"),
-  "v-4f78b168": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\homeEducation.md"),
-  "v-a7fc0a68": () => import("D:\\xingkong\\lzx-vuepress\\docs\\website\\a.md") 
+  "v-a7fc0a68": () => import("D:\\xingkong\\lzx-vuepress\\docs\\website\\a.md"),
+  "v-290eff02": () => import("D:\\xingkong\\lzx-vuepress\\docs\\exist\\README.md") 
 }

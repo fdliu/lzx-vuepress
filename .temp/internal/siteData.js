@@ -25,52 +25,66 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/exist/",
-      "relativePath": "exist/README.md",
-      "key": "v-290eff02",
-      "path": "/exist/"
+      "regularPath": "/about/",
+      "relativePath": "about/README.md",
+      "key": "v-8554be5a",
+      "path": "/about/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/homeEducation.html",
+      "relativePath": "exist/homeEducation.md",
+      "key": "v-4f78b168",
+      "path": "/exist/homeEducation.html",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
       "regularPath": "/exist/poorBusy.html",
       "relativePath": "exist/poorBusy.md",
       "key": "v-f1e0201c",
-      "path": "/exist/poorBusy.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/exist/tecProgress.html",
-      "relativePath": "exist/tecProgress.md",
-      "key": "v-4a96a668",
-      "path": "/exist/tecProgress.html"
+      "path": "/exist/poorBusy.html",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
       "regularPath": "/exist/remoteWork.html",
       "relativePath": "exist/remoteWork.md",
       "key": "v-1641958c",
-      "path": "/exist/remoteWork.html"
+      "path": "/exist/remoteWork.html",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/tecProgress.html",
+      "relativePath": "exist/tecProgress.md",
+      "key": "v-4a96a668",
+      "path": "/exist/tecProgress.html",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
       "regularPath": "/exist/timeAndMoney.html",
       "relativePath": "exist/timeAndMoney.md",
       "key": "v-d36b5c88",
-      "path": "/exist/timeAndMoney.html"
+      "path": "/exist/timeAndMoney.html",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
       "regularPath": "/exist/useLess.html",
       "relativePath": "exist/useLess.md",
       "key": "v-01cc87a8",
-      "path": "/exist/useLess.html"
+      "path": "/exist/useLess.html",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
       "regularPath": "/readList/",
       "relativePath": "readList/README.md",
       "key": "v-734327f6",
-      "path": "/readList/"
+      "path": "/readList/",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
@@ -85,7 +99,8 @@ export const siteData = {
       "regularPath": "/skill/",
       "relativePath": "skill/README.md",
       "key": "v-140de76a",
-      "path": "/skill/"
+      "path": "/skill/",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
@@ -100,14 +115,8 @@ export const siteData = {
       "regularPath": "/website/",
       "relativePath": "website/README.md",
       "key": "v-6be08ef7",
-      "path": "/website/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/exist/homeEducation.html",
-      "relativePath": "exist/homeEducation.md",
-      "key": "v-4f78b168",
-      "path": "/exist/homeEducation.html"
+      "path": "/website/",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
@@ -116,6 +125,14 @@ export const siteData = {
       "key": "v-a7fc0a68",
       "path": "/website/a.html",
       "lastUpdated": "12/13/2021, 9:56:06 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/",
+      "relativePath": "exist/README.md",
+      "key": "v-290eff02",
+      "path": "/exist/",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
     }
   ],
   "themeConfig": {
@@ -129,12 +146,8 @@ export const siteData = {
         "text": "博文",
         "items": [
           {
-            "text": "bar",
-            "link": "/bar/"
-          },
-          {
-            "text": "foo",
-            "link": "/foo/"
+            "text": "CSDN",
+            "link": "https://blog.csdn.net/qq_35876316?type=blog"
           }
         ]
       },
