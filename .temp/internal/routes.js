@@ -33,11 +33,43 @@ export const routes = [
     redirect: "/exist/"
   },
   {
-    name: "v-3f4f29cc",
-    path: "/exist/a.html",
+    name: "v-f1e0201c",
+    path: "/exist/poorBusy.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3f4f29cc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-f1e0201c").then(next)
+    },
+  },
+  {
+    name: "v-4a96a668",
+    path: "/exist/tecProgress.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4a96a668").then(next)
+    },
+  },
+  {
+    name: "v-1641958c",
+    path: "/exist/remoteWork.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1641958c").then(next)
+    },
+  },
+  {
+    name: "v-d36b5c88",
+    path: "/exist/timeAndMoney.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d36b5c88").then(next)
+    },
+  },
+  {
+    name: "v-01cc87a8",
+    path: "/exist/useLess.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-01cc87a8").then(next)
     },
   },
   {
@@ -91,6 +123,14 @@ export const routes = [
   {
     path: "/website/index.html",
     redirect: "/website/"
+  },
+  {
+    name: "v-4f78b168",
+    path: "/exist/homeEducation.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4f78b168").then(next)
+    },
   },
   {
     name: "v-a7fc0a68",

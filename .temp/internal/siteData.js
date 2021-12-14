@@ -21,7 +21,7 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-7b03c9bc",
       "path": "/",
-      "lastUpdated": "12/13/2021, 9:56:06 AM"
+      "lastUpdated": "12/13/2021, 10:54:14 AM"
     },
     {
       "frontmatter": {},
@@ -32,11 +32,38 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/exist/a.html",
-      "relativePath": "exist/a.md",
-      "key": "v-3f4f29cc",
-      "path": "/exist/a.html",
-      "lastUpdated": "12/13/2021, 9:56:06 AM"
+      "regularPath": "/exist/poorBusy.html",
+      "relativePath": "exist/poorBusy.md",
+      "key": "v-f1e0201c",
+      "path": "/exist/poorBusy.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/tecProgress.html",
+      "relativePath": "exist/tecProgress.md",
+      "key": "v-4a96a668",
+      "path": "/exist/tecProgress.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/remoteWork.html",
+      "relativePath": "exist/remoteWork.md",
+      "key": "v-1641958c",
+      "path": "/exist/remoteWork.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/timeAndMoney.html",
+      "relativePath": "exist/timeAndMoney.md",
+      "key": "v-d36b5c88",
+      "path": "/exist/timeAndMoney.html"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/useLess.html",
+      "relativePath": "exist/useLess.md",
+      "key": "v-01cc87a8",
+      "path": "/exist/useLess.html"
     },
     {
       "frontmatter": {},
@@ -74,6 +101,13 @@ export const siteData = {
       "relativePath": "website/README.md",
       "key": "v-6be08ef7",
       "path": "/website/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/homeEducation.html",
+      "relativePath": "exist/homeEducation.md",
+      "key": "v-4f78b168",
+      "path": "/exist/homeEducation.html"
     },
     {
       "frontmatter": {},
@@ -120,7 +154,7 @@ export const siteData = {
         "children": [
           [
             "/skill/a",
-            "a"
+            "帮助"
           ]
         ]
       },
@@ -129,8 +163,28 @@ export const siteData = {
         "collapsable": true,
         "children": [
           [
-            "/exist/a",
-            "a"
+            "/exist/poorBusy",
+            "穷忙的人生"
+          ],
+          [
+            "/exist/useLess",
+            "那些无用的人"
+          ],
+          [
+            "/exist/tecProgress",
+            "技术的进步迫使暴力犯罪越来越少"
+          ],
+          [
+            "/exist/homeEducation",
+            "长大后自卑的孩子，大多出自这几种家庭，别不当回事"
+          ],
+          [
+            "/exist/timeAndMoney",
+            "能用钱解决的问题，不要花宝贵的时间"
+          ],
+          [
+            "/exist/remoteWork",
+            "办公室主导的工作场所将在十年内结束"
           ]
         ]
       },
