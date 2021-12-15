@@ -9,16 +9,16 @@ import GlobalLayout from "D:\\xingkong\\lzx-vuepress\\node_modules\\@vuepress\\c
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-7b03c9bc",
-    path: "/",
+    name: "v-290eff02",
+    path: "/exist/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7b03c9bc").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-290eff02").then(next)
     },
   },
   {
-    path: "/index.html",
-    redirect: "/"
+    path: "/exist/index.html",
+    redirect: "/exist/"
   },
   {
     name: "v-8554be5a",
@@ -65,19 +65,19 @@ export const routes = [
     },
   },
   {
-    name: "v-d36b5c88",
-    path: "/exist/timeAndMoney.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-d36b5c88").then(next)
-    },
-  },
-  {
     name: "v-01cc87a8",
     path: "/exist/useLess.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-01cc87a8").then(next)
+    },
+  },
+  {
+    name: "v-d36b5c88",
+    path: "/exist/timeAndMoney.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-d36b5c88").then(next)
     },
   },
   {
@@ -141,16 +141,24 @@ export const routes = [
     },
   },
   {
-    name: "v-290eff02",
-    path: "/exist/",
+    name: "v-6e332612",
+    path: "/website/markDown.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-290eff02").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-6e332612").then(next)
     },
   },
   {
-    path: "/exist/index.html",
-    redirect: "/exist/"
+    name: "v-7b03c9bc",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7b03c9bc").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
   },
   {
     path: '*',

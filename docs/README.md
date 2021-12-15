@@ -6,4 +6,3 @@
 [读书清单（10）](/readList/)<br/>
 [网站（1）](/website/)<br/>
 :::
-yarn deploy-gh # 或者：npm run deploy-gh    
