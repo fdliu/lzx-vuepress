@@ -1,9 +1,9 @@
 const navConfig = require("../../navConfig/nav")
 const sidebarConfig = require("../../sidebarConfig/sidebar")
 module.exports = {
-  title: 'LZX\'s Blog by VuePress',
+  theme: 'vdoing', // 使用npm包主题
+  title: 'LZX\'s Blog ',
   description: 'lzx a project,每天进步一点点。',
-  serviceWorker: true,
   base: '/lzx-vuepress/',
 	head: [
         ['link', { rel: 'icon', href: '/logo.jpg' }],
@@ -34,9 +34,13 @@ module.exports = {
   themeConfig: {
       search: true,
       nav: navConfig,
+      logo: '/logo.jpg', // 导航栏logo
+      repo: 'lzx-vuepress/vuepress-theme-vdoing', // 导航栏右侧生成Github链接
       sidebar: sidebarConfig,
-      sidebarDepth: 1,
+      // sidebar: 'structuring',
+      sidebarDepth: 2,
       lastUpdated: '上次更新', 
+      searchMaxSuggestions: 10, // 搜索结果显示最大数
   },
   configureWebpack: {
     resolve: {

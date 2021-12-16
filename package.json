@@ -1,5 +1,5 @@
 {
-  "name": "vuepress-starter",
+  "name": "lzx-vuepress",
   "version": "1.0.0",
   "description": "This is a vuepress project by lzx.",
   "main": "index.js",
@@ -9,19 +9,15 @@
     "deploy-gh": "yarn docs:build && bash scripts/deploy-gh.sh",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://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@github.com/fdliu/vue-project-xing.git"
-  },
   "keywords": [
     "vuepress"
   ],
   "author": "lzx",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fdliu/vue-project-xing/issues"
+    "url": "https://github.com/fdliu/lzx-vuepress/issues"
   },
-  "homepage": "https://github.com/fdliu/vue-project-xing#readme",
+  "homepage": "https://github.com/fdliu/lzx-vuepress#readme",
   "devDependencies": {
     "vuepress": "^1.8.2",
     "vuepress-plugin-flexsearch": "^0.3.0",
