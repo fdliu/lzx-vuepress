@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/fdliu/vue-project-xing#readme",
   "devDependencies": {
-    "vuepress": "^1.8.2"
+    "vuepress": "^1.8.2",
+    "vuepress-plugin-flexsearch": "^0.3.0",
+    "vuepress-plugin-fulltext-search": "^2.2.1",
+    "vuepress-theme-vdoing": "^1.8.6"
   },
   "dependencies": {
     "@vssue/api-github-v4": "^1.4.7",

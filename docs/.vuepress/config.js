@@ -11,10 +11,10 @@ module.exports = {
   markdown: {
     lineNumbers: true
   },
-  plugins: {
-    '@vuepress/back-to-top': true,
+  plugins: [['flexsearch'],{
+    '@vuepress/back-to-top': false,
     '@vuepress/last-updated': true,
-    '@vuepress/nprogress':false, //默认为true，设置为false可以关闭进度条
+    '@vuepress/nprogress':true, //默认为true，设置为false可以关闭顶部进度条
     '@vuepress/search': {
           search: true, //默认false
           searchMaxSuggestions: 10 // 默认是5
@@ -30,19 +30,19 @@ module.exports = {
       clientSecret: 'b736aa7c1c66d16acce5bf07070793e94641a098', //  刚才保存下来的 Client secrets
       autoCreateIssue: true,//自动创建评论
     },
-  },
-  // configureWebpack: {
-  //   resolve: {
-  //     alias: {
-  //       '@alias': 'path/to/some/dir'
-  //     }
-  //   }
-  // },
+  }],
   themeConfig: {
       search: true,
       nav: navConfig,
       sidebar: sidebarConfig,
       sidebarDepth: 1,
-      lastUpdated: 'Last Updated', 
+      lastUpdated: '上次更新', 
   },
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@alias': '/image/'
+      }
+    }
+  }
 }

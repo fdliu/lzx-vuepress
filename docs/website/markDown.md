@@ -1,5 +1,10 @@
-
+{{ 1 + 1 }}
 ><font face="微软雅黑" color="#ea163f" size="5">**一、标题**</font><br/>
+<img :src="$withBase('/brid.png')" alt='brid'>
+
+---
+layout: "xxx"
+---
 
 # 这是一级标题
 ## 这是二级标题，二级标题底下有横线
@@ -124,13 +129,13 @@
 ><font face="微软雅黑" color="#ea163f" size="5">**八、图片**</font><br/>
 
 本地图片
-![小鸟](/image/brid.png "小鸟")
+![小鸟](../../image/brid.png "小鸟")
 网络图片
 ![vue官网logo](https://cn.vuejs.org/images/logo.png "vue官网logo")
 
 ::: details 查看代码
    `本地图片:`<br/>
-   `![小鸟](/image/brid.png "小鸟")`<br/>
+   `![小鸟](../../image/brid.png "小鸟")`<br/>
    `网络图片:`<br/>
    `![vue官网logo](https://cn.vuejs.org/images/logo.png "vue官网logo")`<br/>
 :::
