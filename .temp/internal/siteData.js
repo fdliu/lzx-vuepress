@@ -17,14 +17,6 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
-      "regularPath": "/exist/",
-      "relativePath": "exist/README.md",
-      "key": "v-290eff02",
-      "path": "/exist/",
-      "lastUpdated": "12/14/2021, 10:30:13 AM"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/about/",
       "relativePath": "about/README.md",
       "key": "v-8554be5a",
@@ -33,18 +25,34 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/exist/homeEducation.html",
-      "relativePath": "exist/homeEducation.md",
-      "key": "v-4f78b168",
-      "path": "/exist/homeEducation.html",
+      "regularPath": "/exist/",
+      "relativePath": "exist/README.md",
+      "key": "v-290eff02",
+      "path": "/exist/",
       "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
       "frontmatter": {},
-      "regularPath": "/exist/poorBusy.html",
-      "relativePath": "exist/poorBusy.md",
-      "key": "v-f1e0201c",
-      "path": "/exist/poorBusy.html",
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-7b03c9bc",
+      "path": "/",
+      "lastUpdated": "12/15/2021, 5:31:52 PM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/tecProgress.html",
+      "relativePath": "exist/tecProgress.md",
+      "key": "v-4a96a668",
+      "path": "/exist/tecProgress.html",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/homeEducation.html",
+      "relativePath": "exist/homeEducation.md",
+      "key": "v-4f78b168",
+      "path": "/exist/homeEducation.html",
       "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
@@ -57,10 +65,18 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/exist/tecProgress.html",
-      "relativePath": "exist/tecProgress.md",
-      "key": "v-4a96a668",
-      "path": "/exist/tecProgress.html",
+      "regularPath": "/readList/",
+      "relativePath": "readList/README.md",
+      "key": "v-734327f6",
+      "path": "/readList/",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/exist/poorBusy.html",
+      "relativePath": "exist/poorBusy.md",
+      "key": "v-f1e0201c",
+      "path": "/exist/poorBusy.html",
       "lastUpdated": "12/14/2021, 10:30:13 AM"
     },
     {
@@ -77,15 +93,7 @@ export const siteData = {
       "relativePath": "exist/timeAndMoney.md",
       "key": "v-d36b5c88",
       "path": "/exist/timeAndMoney.html",
-      "lastUpdated": "12/14/2021, 10:30:13 AM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/readList/",
-      "relativePath": "readList/README.md",
-      "key": "v-734327f6",
-      "path": "/readList/",
-      "lastUpdated": "12/14/2021, 10:30:13 AM"
+      "lastUpdated": "12/15/2021, 5:31:52 PM"
     },
     {
       "frontmatter": {},
@@ -97,35 +105,11 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/skill/",
-      "relativePath": "skill/README.md",
-      "key": "v-140de76a",
-      "path": "/skill/",
-      "lastUpdated": "12/14/2021, 10:30:13 AM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/skill/a.html",
-      "relativePath": "skill/a.md",
-      "key": "v-45acae0c",
-      "path": "/skill/a.html",
-      "lastUpdated": "12/13/2021, 9:56:06 AM"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/website/",
       "relativePath": "website/README.md",
       "key": "v-6be08ef7",
       "path": "/website/",
       "lastUpdated": "12/14/2021, 10:30:13 AM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/website/a.html",
-      "relativePath": "website/a.md",
-      "key": "v-a7fc0a68",
-      "path": "/website/a.html",
-      "lastUpdated": "12/13/2021, 9:56:06 AM"
     },
     {
       "frontmatter": {},
@@ -149,15 +133,32 @@ export const siteData = {
           "title": "使用3个或者多个“*”的分割线",
           "slug": "使用3个或者多个-的分割线"
         }
-      ]
+      ],
+      "lastUpdated": "12/15/2021, 5:31:52 PM"
     },
     {
       "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-7b03c9bc",
-      "path": "/",
-      "lastUpdated": "12/13/2021, 10:54:14 AM"
+      "regularPath": "/skill/",
+      "relativePath": "skill/README.md",
+      "key": "v-140de76a",
+      "path": "/skill/",
+      "lastUpdated": "12/14/2021, 10:30:13 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/skill/a.html",
+      "relativePath": "skill/a.md",
+      "key": "v-45acae0c",
+      "path": "/skill/a.html",
+      "lastUpdated": "12/13/2021, 9:56:06 AM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/website/a.html",
+      "relativePath": "website/a.md",
+      "key": "v-a7fc0a68",
+      "path": "/website/a.html",
+      "lastUpdated": "12/15/2021, 5:31:52 PM"
     }
   ],
   "themeConfig": {

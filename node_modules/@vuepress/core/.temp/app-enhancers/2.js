@@ -1,2 +1,1 @@
-import "D:\\xingkong\\lzx-vuepress\\node_modules\\@vuepress\\plugin-nprogress\\enhanceAppFile.js"
-export default {}
+export { default } from "D:\\xingkong\\lzx-vuepress\\node_modules\\@vssue\\vuepress-plugin-vssue\\lib\\enhanceApp.js"

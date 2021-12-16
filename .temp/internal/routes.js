@@ -9,18 +9,6 @@ import GlobalLayout from "D:\\xingkong\\lzx-vuepress\\node_modules\\@vuepress\\c
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-290eff02",
-    path: "/exist/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-290eff02").then(next)
-    },
-  },
-  {
-    path: "/exist/index.html",
-    redirect: "/exist/"
-  },
-  {
     name: "v-8554be5a",
     path: "/about/",
     component: GlobalLayout,
@@ -33,19 +21,43 @@ export const routes = [
     redirect: "/about/"
   },
   {
+    name: "v-290eff02",
+    path: "/exist/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-290eff02").then(next)
+    },
+  },
+  {
+    path: "/exist/index.html",
+    redirect: "/exist/"
+  },
+  {
+    name: "v-7b03c9bc",
+    path: "/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7b03c9bc").then(next)
+    },
+  },
+  {
+    path: "/index.html",
+    redirect: "/"
+  },
+  {
+    name: "v-4a96a668",
+    path: "/exist/tecProgress.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4a96a668").then(next)
+    },
+  },
+  {
     name: "v-4f78b168",
     path: "/exist/homeEducation.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-4f78b168").then(next)
-    },
-  },
-  {
-    name: "v-f1e0201c",
-    path: "/exist/poorBusy.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-f1e0201c").then(next)
     },
   },
   {
@@ -57,11 +69,23 @@ export const routes = [
     },
   },
   {
-    name: "v-4a96a668",
-    path: "/exist/tecProgress.html",
+    name: "v-734327f6",
+    path: "/readList/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4a96a668").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-734327f6").then(next)
+    },
+  },
+  {
+    path: "/readList/index.html",
+    redirect: "/readList/"
+  },
+  {
+    name: "v-f1e0201c",
+    path: "/exist/poorBusy.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-f1e0201c").then(next)
     },
   },
   {
@@ -81,23 +105,31 @@ export const routes = [
     },
   },
   {
-    name: "v-734327f6",
-    path: "/readList/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-734327f6").then(next)
-    },
-  },
-  {
-    path: "/readList/index.html",
-    redirect: "/readList/"
-  },
-  {
     name: "v-12d61874",
     path: "/readList/a.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-12d61874").then(next)
+    },
+  },
+  {
+    name: "v-6be08ef7",
+    path: "/website/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6be08ef7").then(next)
+    },
+  },
+  {
+    path: "/website/index.html",
+    redirect: "/website/"
+  },
+  {
+    name: "v-6e332612",
+    path: "/website/markDown.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-6e332612").then(next)
     },
   },
   {
@@ -121,44 +153,12 @@ export const routes = [
     },
   },
   {
-    name: "v-6be08ef7",
-    path: "/website/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6be08ef7").then(next)
-    },
-  },
-  {
-    path: "/website/index.html",
-    redirect: "/website/"
-  },
-  {
     name: "v-a7fc0a68",
     path: "/website/a.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-a7fc0a68").then(next)
     },
-  },
-  {
-    name: "v-6e332612",
-    path: "/website/markDown.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-6e332612").then(next)
-    },
-  },
-  {
-    name: "v-7b03c9bc",
-    path: "/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7b03c9bc").then(next)
-    },
-  },
-  {
-    path: "/index.html",
-    redirect: "/"
   },
   {
     path: '*',

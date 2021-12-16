@@ -1,5 +1,4 @@
-::: tip
-本文出自http://www.ruanyifeng.com/
+::: tip 本文出自http://www.ruanyifeng.com/
 作者： 阮一峰
 :::
 
