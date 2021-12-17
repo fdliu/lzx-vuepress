@@ -5,6 +5,7 @@ module.exports = {
   title: 'LZX\'s Blog ',
   description: 'lzx a project,每天进步一点点。',
   base: '/lzx-vuepress/',
+  port: "8090",
 	head: [
         ['link', { rel: 'icon', href: '/logo.jpg' }],
   ],
