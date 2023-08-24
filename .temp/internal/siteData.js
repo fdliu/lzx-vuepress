@@ -17,39 +17,43 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-7b03c9bc",
+      "path": "/",
+      "lastUpdated": "12/10/2021, 5:29:29 PM"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/exist/a.html",
       "relativePath": "exist/a.md",
       "key": "v-3f4f29cc",
-      "path": "/exist/a.html"
+      "path": "/exist/a.html",
+      "lastUpdated": "12/10/2021, 5:29:29 PM"
     },
     {
       "frontmatter": {},
       "regularPath": "/readList/a.html",
       "relativePath": "readList/a.md",
       "key": "v-12d61874",
-      "path": "/readList/a.html"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-7b03c9bc",
-      "path": "/",
-      "lastUpdated": "12/10/2021, 9:23:00 AM"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/website/a.html",
-      "relativePath": "website/a.md",
-      "key": "v-a7fc0a68",
-      "path": "/website/a.html"
+      "path": "/readList/a.html",
+      "lastUpdated": "12/10/2021, 5:29:29 PM"
     },
     {
       "frontmatter": {},
       "regularPath": "/skill/a.html",
       "relativePath": "skill/a.md",
       "key": "v-45acae0c",
-      "path": "/skill/a.html"
+      "path": "/skill/a.html",
+      "lastUpdated": "12/10/2021, 5:29:29 PM"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/website/a.html",
+      "relativePath": "website/a.md",
+      "key": "v-a7fc0a68",
+      "path": "/website/a.html",
+      "lastUpdated": "12/10/2021, 5:29:29 PM"
     }
   ],
   "themeConfig": {
@@ -64,11 +68,11 @@ export const siteData = {
         "items": [
           {
             "text": "bar",
-            "link": "/bar/"
+            "link": "/exist/a.md"
           },
           {
             "text": "foo",
-            "link": "/foo/"
+            "link": "/skill/a.md"
           }
         ]
       },
@@ -117,7 +121,7 @@ export const siteData = {
         "collapsable": true,
         "children": [
           [
-            "/skill/a",
+            "/website/a",
             "a"
           ]
         ]
